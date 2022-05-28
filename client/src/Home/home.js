@@ -34,6 +34,8 @@ export default function Home() {
         listening
     } = useSpeechRecognition({ commands });
 
+    console.log(transcript)
+
     if (!browserSupportsSpeechRecognition) {
         return <span>Browser doesn't support speech recognition.</span>;
     }
