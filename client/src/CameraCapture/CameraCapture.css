@@ -1,0 +1,34 @@
+.FindPerson {
+    margin: 0 1em 0 27.5em;
+    display: flex;
+}
+
+.image-holder {
+    width: 250px;
+    height: 250px;
+    margin-top: 2em;
+    margin-left: 12em;
+}
+
+.image-holder:active {
+    width: 240px;
+    height: 240px;
+}
+
+.webcam {
+    border: 1px solid black;
+}
+
+.webcam-btn {
+    width: 250px;
+}
+
+.webcam-image {
+    border: 1px solid black;
+}
+
+.btn-image {
+    width: 25px;
+    height: 25px;
+    padding: 0%;
+}

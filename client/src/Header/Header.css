@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;1,200&family=Roboto:ital,wght@1,100&display=swap');
+
+.header {
+    position: absolute;
+    width: 1450px;
+    height: 150px;
+    background-color: #3b63bc;
+    display: flex;
+}
+
+.App-logo {
+
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.App-title {
+    width: 627px;
+    height: 73px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 58px;
+    margin-top: 0.5em;
+    line-height: 93px;
+    padding-left: 200px;
+    margin-left: 100px;
+    color: #fff;
+    clear: both;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.Nav-Items {
+    background-color: #575959;
+    height: 48px;
+    width: 1440px;
+    top: 200px;
+    display: flex;
+}

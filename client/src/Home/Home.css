@@ -1,0 +1,25 @@
+.add-new {
+    position: absolute;
+    width: 609px;
+    height: 203px;
+    left: 414px;
+    top: 714px;
+
+    background: #FFAC33;
+}
+
+.toggle-switch {
+    position: absolute;
+    width: 613px;
+    height: 201px;
+    left: 410px;
+    top: 358px;
+}
+
+.container {
+    position: absolute;
+    width: 613px;
+    height: 201px;
+    left: 410px;
+    top: 398px;
+}

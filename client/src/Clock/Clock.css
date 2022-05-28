@@ -1,0 +1,23 @@
+.clock {
+
+    margin-left: -32em;
+    margin-right: 2em;
+    margin-top: -5em;
+}
+
+.time {
+    font-family: courier, monospace;
+    color: #f8893d;
+    font-size: 50px;
+    height: 50px;
+    width: 80px;
+    white-space: nowrap;
+}
+
+.date {
+    font-family: courier, monospace;
+    color: #f8893d;
+    font-size: 50px;
+    height: 50px;
+    width: 80px;
+}

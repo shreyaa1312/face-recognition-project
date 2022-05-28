@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;1,200&family=Roboto:ital,wght@1,100&display=swap');
+
+.container {
+    margin: 16em 0em 0px -56em;
+
+
+}
+
+.form-title {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 38px;
+    margin: 0em 0em 1em 4.8em;
+}
+
+.addForm {
+    border-radius: 10px;
+    background: white;
+    padding: 20px;
+    margin: 0em 00em 1em -8.5em;
+    display: fixed;
+    border: 1px solid #f4f4f4;
+}
+
+.inputs {
+    display: flex;
+    margin: 0em 0em 0em 0em;
+}
+
+.image-input {
+    padding-left: 3em;
+}
+
+.text-input {
+    margin-top: 3em;
+}
+
+.buttons {
+    display: inline;
+    align-content: center;
+}
+
+.bttn {
+    background-color: #f8893d;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 250px;
+    height: 50px;
+}
+
+.bttn:active {
+    height: 80%;
+}
+
+.name-div {
+    padding-bottom: 3em;
+}
+
+.input-label {
+    font-family: 'Exo 2', sans-serif;
+    padding-right: 0.2em;
+    font-size: 35px;
+    margin-top: 15em;
+}
+
+.txtbox {
+    size: 6em;
+    height: 2.5em;
+}
+
+.name-lable {
+    padding: 0 1em 0 0;
+}
