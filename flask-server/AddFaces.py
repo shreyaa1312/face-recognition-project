@@ -5,14 +5,14 @@ from azure.cognitiveservices.vision.face.operations import FaceListOperations
 from msrest.authentication import CognitiveServicesCredentials
 from util import check_face_in_facelist
 
-# Adds new persons in known-person-facelist
+# Adds new persons in known-person--facelist
 
 
 def addface(detail, image):
     credential = json.load(open('Authentication.json'))
     face_client = FaceClient(
         credential['ENDPOINT'], CognitiveServicesCredentials(credential['API_KEY']))
-    face_list_id = "known-people-facelist"
+    face_list_id = "known-person--facelist"
     img_source = open(image, 'rb')
 
     try:

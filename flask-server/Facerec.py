@@ -46,13 +46,12 @@ def facerec(image, home):
     # is a known person or stranger
     for face in response_detection:
         try:
-            known_faces = face_client.face_list.get("known-people-facelist")
+            known_faces = face_client.face_list.get("known-people--facelist")
             similar_faces = face_client.face.find_similar(
-                face.face_id, "known-people-facelist")
+                face.face_id, "known-people--facelist")
         except:
             print("FaceList created.")
 
-    print('none')
     face_ids = [face.face_id for face in response_detection]
 
     matched_face = []
@@ -64,10 +63,9 @@ def facerec(image, home):
 
     flag = 0
     if not similar_faces:
-        print('working')
         mycursor.execute("SELECT face_id FROM stranger_detail")
         myresult = mycursor.fetchall()
-        print(myresult)
+
         for x in myresult:
             fid = x[0]
             matched_face += face_client.face.find_similar(
